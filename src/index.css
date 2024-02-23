@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-left-right-bottom {
+  box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1), -5px 0 10px rgba(0, 0, 0, 0.1),
+    0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-img {
+  width: 100vw;
+  height: 28.5rem;
+}
+
+.arrow-list {
+  list-style: none;
+}
+.arrow-list li:before {
+  content: '\2794'; /* Unicode character for right arrow */
+  margin-right: 10px; /* Adjust this value to your preference */
+  font-weight: bolder;
+}
