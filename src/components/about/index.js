@@ -63,7 +63,7 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className='w-[90vw]  max-w-6xl h-[22vh] xl:w-[90vw]  xl:max-w-6xl  relative  xl:left-0     flex justify-center items-center gap-12 xl:gap-12 lg:gap-16'>
+        <div className='w-[90vw] top-10 max-w-6xl h-[22vh] xl:w-[90vw]  xl:max-w-6xl  relative  xl:left-0     flex justify-center items-center gap-12 xl:gap-12 lg:gap-16'>
           <img
             className='w-60 h-12 xl:w-60 xl:h-16 lg:w-36 lg:h-10 inset-0 object-cover'
             src='/images/Microsoft.png'

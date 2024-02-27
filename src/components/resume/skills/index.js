@@ -26,7 +26,7 @@ const Skills = () => {
               Skills
             </h1>
           </div>
-          <div className='flex  '>
+          <div className='flex xl:flex-row lg:flex-row md:flex-col '>
             {skills.map((skill, index) => (
               <div className='p-2 flex ' key={index}>
                 <div className='w-72 h-[18rem] xl:w-72 xl:h-[18rem] lg:w-56 lg:h-[13rem]  bg-white shadow-left-right-bottom rounded-md flex justify-center pt-6'>

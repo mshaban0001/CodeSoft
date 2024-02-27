@@ -14,7 +14,7 @@ const Intro = () => {
   return (
     <div className='w-full flex justify-center items-center h-[100vh] '>
       <div className='w-2/4 h-full bg-[#f0f2f5]'></div>
-      <div className='flex items-center flex-col justify-center h-auto w-auto p-4 gap-5 absolute'>
+      <div className='flex items-center flex-col justify-center h-auto w-auto p-4 gap-5 absolute top-56'>
         <h1 className='text-2xl font-extrabold relative uppercase tracking-widest text-[#3e64ff] '>
           Hey ! I Am
         </h1>
@@ -28,7 +28,7 @@ const Intro = () => {
           </span>
         </h1>
       </div>
-      <div class='  flex items-center flex-col justify-center absolute top-[45rem]'>
+      <div class='  flex items-center flex-col justify-center absolute top-[40rem]'>
         <div class='w-20 h-20 bg-[#f0f2f5] transform rotate-45'></div>
         <div className='w-12 h-12 bg-[#f0f2f5] absolute'>
           <Link to='about' spy={true} smooth={true} offset={-80} duration={500}>
