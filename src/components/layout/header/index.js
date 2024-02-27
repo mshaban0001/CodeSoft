@@ -23,14 +23,14 @@ const Header = () => {
         className={`fixed top-0 w-full flex justify-center items-center h-20 z-50 transition-all duration-300 ${
           scrolled ? 'bg-white shadow-md' : 'bg-transparent'
         }`}>
-        <div className='w-[90vw] xl:w-[80vw] lg:w-[70vw] max-w-6xl xl:max-w-6xl lg:max-w-5xl h-full   flex justify-start items-center gap-[22rem] xl:gap-[22rem] lg:gap-[7rem] '>
+        <div className='w-[90vw] xl:w-[90vw]  max-w-6xl xl:max-w-6xl  h-full   flex justify-start items-center gap-[22rem] xl:gap-[22rem] lg:gap-[16rem] '>
           <div className='text-3xl font-extrabold'>
             <span className='text-white bg-[#3e64ff] rounded-full  px-3 py-0'>
               S
             </span>
             <span className='relative left-[-10px]'>haban</span>
           </div>
-          <div className=' flex gap-16 xl:gap-12 lg:gap-10 text-black font-normal justify-center items-center'>
+          <div className=' flex gap-16 xl:gap-16 lg:gap-10 text-black font-normal justify-center items-center'>
             <Link
               to='hero'
               spy={true}

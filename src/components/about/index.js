@@ -9,7 +9,7 @@ const About = () => {
         <div className='w-full h-[70vh] flex'>
           <div className=' h-full w-2/4'>
             <img
-              className=' inset-0 w-3/5 h-full object-cover float-right'
+              className=' inset-0 w-3/5 xl:w-3/5 lg:w-11/12 h-full object-cover float-right'
               src='/images/Profile2.png'
               alt=''
               srcset=''
@@ -63,7 +63,7 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className='w-[90vw]  max-w-6xl h-[22vh] xl:w-[90vw]  xl:max-w-6xl lg:w-[70vw] relative lg:left-14 xl:left-0  lg:max-w-5xl    flex justify-center items-center gap-12 xl:gap-12 lg:gap-16'>
+        <div className='w-[90vw]  max-w-6xl h-[22vh] xl:w-[90vw]  xl:max-w-6xl  relative  xl:left-0     flex justify-center items-center gap-12 xl:gap-12 lg:gap-16'>
           <img
             className='w-60 h-12 xl:w-60 xl:h-16 lg:w-36 lg:h-10 inset-0 object-cover'
             src='/images/Microsoft.png'

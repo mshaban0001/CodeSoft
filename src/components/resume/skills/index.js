@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Skills = () => {
-  // Array of skills with their names and percentages
   const skills = [
     { name: 'CSS', percentage: 80 },
     { name: 'HTML', percentage: 82 },
@@ -27,13 +26,13 @@ const Skills = () => {
               Skills
             </h1>
           </div>
-          <div className='flex   '>
+          <div className='flex  '>
             {skills.map((skill, index) => (
               <div className='p-2 flex ' key={index}>
-                <div className='w-72 h-[18rem]   bg-white shadow-left-right-bottom rounded-md flex justify-center pt-6'>
+                <div className='w-72 h-[18rem] xl:w-72 xl:h-[18rem] lg:w-56 lg:h-[13rem]  bg-white shadow-left-right-bottom rounded-md flex justify-center pt-6'>
                   <div className='flex flex-col justify-start items-center'>
                     <h1 className='text-2xl font-bold pb-4'>{skill.name}</h1>
-                    <div className='w-44 h-44 relative'>
+                    <div className='w-44 h-44 xl:w-44 xl:h-44 lg:w-32 lg:h-32 relative'>
                       <svg
                         className='relative top-0 left-0 w-full h-full'
                         viewBox='0 0 36 36'>
@@ -67,13 +66,13 @@ const Skills = () => {
           <div className='grid grid-cols-2 gap-4 pt-4'>
             {Otherskills.map((skill, index) => (
               <div className='p-2 flex flex-col items-center ' key={index}>
-                <div className='w-[27rem] flex justify-between '>
+                <div className='w-[27rem] xl:w-[27rem] lg:w-[20rem] flex justify-between '>
                   <h1 className='text-lg font-medium pb-4'>{skill.name}</h1>
                   <p className='mt-2 text-sm font-semibold '>
                     {skill.percentage}%
                   </p>
                 </div>
-                <div className='w-[27rem] h-2 bg-gray-200 rounded-full '>
+                <div className='w-[27rem] xl:w-[27rem] lg:w-[20rem] h-2 bg-gray-200 rounded-full '>
                   <div
                     className='h-full  bg-[#3e64ff] rounded-full'
                     style={{ width: `${skill.percentage}%` }}></div>

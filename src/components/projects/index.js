@@ -71,10 +71,10 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        <div className='grid grid-cols-4 mt-16 pb-4 gap-16'>
+        <div className='grid grid-cols-4 mt-16 lg:mt-8 pb-4 gap-12 xl:gap-12 lg:gap-6 p-0 xl:p-0 lg:p-8 '>
           {statics.map((statics, index) => (
-            <div className='flex' key={index}>
-              <div className='w-96 h-[10rem]   bg-white shadow-left-right-bottom rounded-md flex flex-col items-center justify-center '>
+            <div className='flex ' key={index}>
+              <div className='w-[26rem] h-[10rem]   bg-white shadow-left-right-bottom rounded-md flex flex-col items-center justify-center '>
                 <div className='text-[#3e64ff] text-4xl font-bold pb-2'>
                   {statics.result}
                 </div>

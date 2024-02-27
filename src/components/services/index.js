@@ -48,22 +48,24 @@ const Services = () => {
   return (
     <>
       <div className='w-full h-auto  flex flex-col items-center' id='services'>
-        <h1 className='text-6xl font-extrabold mt-52'>Services</h1>
-        <p className='text-xl font-semibold text-[#999999] pt-8'>
+        <h1 className='text-6xl xl:text-6xl lg:text-4xl font-extrabold mt-32'>
+          Services
+        </h1>
+        <p className='text-xl xl:text-xl lg:text-base font-semibold text-[#999999] pt-8'>
           Far far away, behind the word mountains, far from the countries
           Vokalia and Consonantia
         </p>
 
-        <div className='grid grid-cols-3 gap-8 mt-20 pb-4  '>
+        <div className='grid grid-cols-3 gap-8 xl:gap-8  lg:gap-0 mt-14 pb-5  '>
           {services.map((skill, index) => (
-            <div className='p-2 flex  ' key={index}>
+            <div className='p-2 xl:p-2 lg:p-8  flex  ' key={index}>
               <div className='w-[36.25rem] h-[18.5rem] hover:bg-[#3e64ff]   bg-white shadow-left-right-bottom rounded-md flex justify-center pt-6'>
                 <div className='flex flex-col justify-start items-center'>
                   <div className='text-6xl text-[#3e64ff] '>{skill.icon}</div>
                   <p className='text-sm font-medium pt-6 border-b-2 border-[#3e64ff] pb-2'>
                     {skill.title}
                   </p>
-                  <span className='text-center text-lg pt-12 px-8 font-normal text-[#999999]'>
+                  <span className='text-center text-lg pt-10 px-8 font-normal text-[#999999]'>
                     {skill.Descrip}
                   </span>
                 </div>
