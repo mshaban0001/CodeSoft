@@ -63,29 +63,29 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className='w-[90vw] max-w-6xl h-[22vh]  flex justify-center items-center gap-12'>
+        <div className='w-[90vw]  max-w-6xl h-[22vh] xl:w-[90vw]  xl:max-w-6xl lg:w-[70vw] relative lg:left-14 xl:left-0  lg:max-w-5xl    flex justify-center items-center gap-12 xl:gap-12 lg:gap-16'>
           <img
-            className='w-60 h-12 inset-0 object-cover'
+            className='w-60 h-12 xl:w-60 xl:h-16 lg:w-36 lg:h-10 inset-0 object-cover'
             src='/images/Microsoft.png'
             alt=''
           />
           <img
-            className='w-60 h-16 inset-0 object-cover'
+            className='w-60 h-16 xl:w-60 xl:h-16 lg:w-36 lg:h-10 inset-0 object-cover'
             src='/images/Android.png'
             alt=''
           />
           <img
-            className='w-40 h-20 inset-0 object-cover'
+            className='w-40 h-20 xl:w-60 xl:h-16 lg:w-36 lg:h-10 inset-0 object-cover'
             src='/images/Java.png'
             alt=''
           />
           <img
-            className='w-52 h-16 inset-0 object-cover'
+            className='w-52 h-16 xl:w-60 xl:h-16 lg:w-36 lg:h-10 inset-0 object-cover'
             src='/images/Google.png'
             alt=''
           />
           <img
-            className='w-60 h-16 inset-0 object-cover'
+            className='w-60 h-16 xl:w-60 xl:h-16 lg:w-36 lg:h-10 inset-0 object-cover'
             src='/images/Adobe.png'
             alt=''
           />
